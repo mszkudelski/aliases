@@ -1,1 +1,1 @@
-cat aliases.txt >> ~/.profile
+cat ./aliases.txt >> ~/.profile
