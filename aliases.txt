@@ -4,6 +4,7 @@ alias ep='. ~/.profile'
 alias rmnode='rm -rf node_modules'
 alias yi='yarn install'
 alias ys='yarn start'
+alias ns='npm start'
 alias ni='npm install'
 alias nt50='npm t -- --maxWorkers=50%'
 
