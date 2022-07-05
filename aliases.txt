@@ -35,3 +35,5 @@ alias gap='git add --patch'
 alias gs='git status'
 alias guc='git add .; gca; gpf'
 alias grc='git rebase --continue'
+
+alias d=. docker-start-proxy.sh
