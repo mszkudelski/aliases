@@ -1,5 +1,13 @@
 # aliases
 
+## Prerequirements
+
+1. You need to install ZSH (shell) and add plugin `globalias` to allow expanding aliases.
+
+2. If you don't have, create `.profile` file in home directory.
+
+## Adding aliases
+
 To add the newest aliases to `~/.profile` file copy and paste this line: 
 
 ``` bash
