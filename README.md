@@ -6,6 +6,12 @@
 
 2. If you don't have, create `.profile` file in home directory.
 
+3. Invoke `.profile` in `.zshrc` file. Just add line:
+
+``` bash
+. ~/.profile
+```
+
 ## Adding aliases
 
 To add the newest aliases to `~/.profile` file copy and paste this line: 
