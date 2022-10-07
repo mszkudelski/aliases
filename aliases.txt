@@ -36,4 +36,4 @@ alias gs='git status'
 alias guc='git add .; gca; gpf'
 alias grc='git rebase --continue'
 
-alias d='. ./docker-start-proxy.sh'
+alias publish="gh workflow run \"Upload and Publish\" --ref \`git branch --show-current\`"
