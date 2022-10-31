@@ -35,5 +35,7 @@ alias gap='git add --patch'
 alias gs='git status'
 alias guc='git add .; gca; gpf'
 alias grc='git rebase --continue'
+alias gsf='git reset --soft'
+alias ghd='git reset --hard'
 
 alias publish="gh workflow run \"Upload and Publish\" --ref \`git branch --show-current\`"
