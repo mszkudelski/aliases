@@ -42,3 +42,4 @@ alias ghd='git reset --hard'
 alias gb='git branch'
 
 alias publish="gh workflow run \"Upload and Publish\" --ref \`git branch --show-current\`"
+alias pubn="gh workflow run \"Upload and Publish\" --ref \`git branch --show-current\`"
