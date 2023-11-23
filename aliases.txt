@@ -9,6 +9,7 @@ alias ni='npm install'
 alias nid='npm i --save-dev'
 alias nd='npm run dev'
 alias nt50='npm t -- --maxWorkers=50%'
+alias nr='rm -rf package-lock.json node_modules && npm i'
 
 alias grs='git restore --staged'
 alias grt='git restore'
