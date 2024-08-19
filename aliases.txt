@@ -12,6 +12,7 @@ alias nh='npm run dev -- --hide-navigation'
 alias nt50='npm t -- --maxWorkers=50%'
 alias nr='rm -rf package-lock.json node_modules && npm i'
 alias ncy="start-server-and-test \'obt dev --hide-navigation > /dev/null\' http://localhost:3000/@allegro/opbox-login-form cy:run"
+alias nv='npm version --git-tag-version=false'
 
 alias grs='git restore --staged'
 alias grt='git restore'
